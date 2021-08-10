@@ -4,7 +4,7 @@ pragma solidity ^0.8.0;
 import "@openzeppelin/contracts/token/ERC1155/ERC1155.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
-contract HinataMarketplace is ERC1155, Ownable{  
+contract NFTMarketplace is ERC1155, Ownable{  
 
     enum DROP_TYPE { 
         UNIQUE_PRODUCT_Fixed_PRICE_DROP,
